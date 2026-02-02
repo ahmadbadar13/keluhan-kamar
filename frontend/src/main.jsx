@@ -1,10 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import FormKeluhan from './pages/FormKeluhan'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <FormKeluhan />
   </StrictMode>,
 )
